@@ -1,0 +1,32 @@
+{
+  "name": "bookshelf",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi web application to demonstrate how we can use Strapi for managing content for web pages and integrate them with another set of APIs for other content data.",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.5.6",
+    "@strapi/plugin-users-permissions": "4.5.6",
+    "@strapi/plugin-i18n": "4.5.6",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "Rupak Ganguly",
+    "email" : "hello@rupakganguly.com",
+    "url" : "https://rupakganguly.com"    
+  },
+  "strapi": {
+    "uuid": "464e359d-b770-40cd-89ba-cbdb1a8373d3"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
