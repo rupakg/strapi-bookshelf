@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "sub_header": {
+      "type": "string"
+    },
+    "hero_image": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "multiple": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "footer": {
+      "type": "string"
+    }
+  }
+}
