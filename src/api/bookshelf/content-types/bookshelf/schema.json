@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookshelves",
+  "info": {
+    "singularName": "bookshelf",
+    "pluralName": "bookshelves",
+    "displayName": "Bookshelf"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
