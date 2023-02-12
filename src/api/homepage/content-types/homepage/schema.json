@@ -4,7 +4,8 @@
   "info": {
     "singularName": "homepage",
     "pluralName": "homepages",
-    "displayName": "Homepage"
+    "displayName": "Homepage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true,
@@ -12,26 +13,35 @@
   },
   "attributes": {
     "header": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "sub_header": {
       "type": "string"
     },
     "hero_image": {
       "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "multiple": false
+      ]
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "footer": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "bookshelves": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::bookshelf.bookshelf"
     }
   }
 }
