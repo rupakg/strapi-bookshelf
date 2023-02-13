@@ -1,10 +1,21 @@
-# 🚀 Bookshelf
+# 🚀 Strapi Bookshelf App
 
-A Strapi web application to demonstrate how we can use Strapi for managing content for web pages and integrate them with another set of APIs for other content data.
+A Strapi CMS web application to demonstrate how we can programmatically use Strapi for managing web page content. We will explore how to create content types, manage content, and consume the content via the Strapi CLI and APIs.
 
-The `bookshelf` application is a companion app for the article [How to manage website content using Strapi CMS]() written by [Rupak Ganguly](https://rupakganguly.com).
+The `strapi-bookshelf` application is a companion app for the article [How to programmatically manage website content using Strapi CMS]() written by [Rupak Ganguly](https://rupakganguly.com).
 
 ## Development
+
+### Pre-requisites
+
+- **Node.js** installed
+	- Only Maintenance and LTS versions are supported (`v14`, `v16`, and `v18`).
+	- Node v18.x is recommended for Strapi `v4.3.9` and above
+- Node.js package manager
+	-  **npm** (`v6` only) or **yarn** (we will use npm in the lab)
+- **Python** (needed for using **SQLite** database)
+
+**Note**: I am using Node.js `v18.13.0` and Python `2.7.15` (since we use a SQLite database)
 
 ### `develop`
 
