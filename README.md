@@ -2,7 +2,7 @@
 
 A Strapi CMS web application to demonstrate how we can programmatically use Strapi for managing web page content. We will explore how to create content types, manage content, and consume the content via the Strapi CLI and APIs.
 
-The `strapi-bookshelf` application is a companion app for the article [How to programmatically manage website content using Strapi CMS]() written by [Rupak Ganguly](https://rupakganguly.com).
+The `strapi-bookshelf` application is a companion app for the article [How to programmatically manage website content using Strapi CMS](https://rupakganguly.com/posts/how-to-programmatically-manage-website-content-using-strapi-cms/) written by [Rupak Ganguly](https://rupakganguly.com).
 
 ## Development
 
