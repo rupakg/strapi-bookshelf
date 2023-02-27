@@ -2,7 +2,7 @@
   "name": "strapi-bookshelf",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi web application to demonstrate how we can use Strapi for managing content for web pages and integrate them with another set of APIs for other content data.",
+  "description": "A Strapi CMS web application to demonstrate how we can programmatically use Strapi for managing web page content and consume them via APIs.",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
